@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome my Simple Education Website!!!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: black;
+            text-align: center;
+            margin: 0;
+        }
+
+        header {
+            padding: 20px;
+          b  font-size: 50px;
+            font-weight: bold;
+            margin: 30px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 40px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: Gold;
+            color: #333;
+            border-radius: 20px;
+            width: 100%;
+            height: 200px;
+            margin-left: 20px;
+            margin-right: 20px;
+
+            padding: 20px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+            cursor: pointer;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .content {
+            padding: 30px;
+        }
+
+        button {
+            margin-top: 30px;
+            padding: 20px 20px;
+            border: none;
+            border-radius: 20px;
+            background: #2a5298;
+            color: Black;
+            cursor: pointer;
+        }
+
+        h2 {
+          font-size: 60px;
+        }
+
+        .card1 {
+            background: white;
+            color: #333;
+            border-radius: 20px;
+            width: 100%;
+            height: 500px;
+            padding: 20px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+            cursor: pointer;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<header>MARI BELAJAR SERU TENTANG TEKNOLOGI BERSAMA AFWU2009!!!</header>
+
+<!-- MENU UTAMA -->
+<div id="menu" class="container">
+    <div class="card" onclick="bukaHP()">
+        <h2>HP</h2>
+        <p>KENALI APA ITU SMARTPHONE?</p>
+    </div>
+
+    <div class="card" onclick="bukaLaptop()">
+        <h2>Laptop</h2>
+        <p>KENALI APA ITU LAPTOP?</p>
+    </div>
+
+    <div class="card" onclick="bukaPC()">
+        <h2>PC</h2>
+        <p>KENALI APA ITU PC?</p>
+    </div>
+
+    <div class="card" onclick="bukaTablet()">
+        <h2>Tablet</h2>
+        <p>KENALI APA ITU TABLET?</p>
+    </div>
+
+     <div class="card" onclick="bukaGameconsole()">
+         <h2>Gameconsole</h2>
+         <p>KENALI APA ITU GAMECONSOLE?</P>
+     </div>
+    
+      <div class="card" onclick="bukaTelevisi()">
+          <h2>Televisi</h2>
+          <p>KENALI APA ITU TELEVISI?</P>
+      </div>
+     
+     <div class="card" onclick="bukaRateus()">
+        <h2>Please Rate us</h2>
+         <p>If Your Get A Problem in my web or your complain please  tell me everything
+abot your complain,your recommended what's next one day 
+thank you!
+see you around!!!</p>
+</div>
+</div>
+
+
+<!-- HALAMAN HP -->
+<div id="halamanHP" class="hidden content">
+<div class="card1">
+    <h2>Apa Itu Hp?</h2>
+    <p>HP adalah perangkat komunikasi modern yang sebagian besar manusia selalu punya dan di gunakan untuk bermain game, berjualan online,bahkan untuk foto, rekam video dan chat antar orang jauh.</p>
+<p>Sparepart pada hp:
+
+
+    <p>
+    <ul style="text-align:left; max-width:500px; margin:auto;">
+        <li><b>•Layar sebagai penampil tampilan pada layar hp</b></li>
+        <li><b>Baterai sebagai sumber daya yang hp gunakan untuk tetap menyala dan dapat digunakan.</b></li>
+        <li><b>Chipset sebagai otak komputer untuk melakukan aksi perintah dari brainware.</b></li>
+        <li><b>RAM</b>Sebagai memori atau penyimpanan utama dalam suatu hasil dari brainware kerjakan.</li>
+        <li><b>Penyimpanan</b>sebagai menyimpan semua data dari brainware berupa data yang masuk adalah internal.</li>
+    </ul>
+
+    <button onclick="kembali()">Kembali</button>
+</div>
+</div>
+
+<!-- HALAMAN LAPTOP -->
+<div id="halamanLaptop" class="hidden content">
+<div class="card1">
+    <h2>Apa Itu Laptop?</h2>
+    <p>Laptop adalah komputer portabel yang mudah untuk di gunakan dan di bawa kemana-mana laptop lebih ringan dari PC jika bersangkutan spesifikasi
+Sparepart-Sparepart pada laptop adalah Mobo/MainBoard/Motherboard,Power Supply,RAM,HDD/SSD,Monitor, Keyboard,Mouse.</p>
+    <button onclick="kembali()">Kembali</button>
+</div>
+</div>
+
+
+
+<!-- HALAMAN PC -->
+<div id="halamanPC" class="hidden content">
+<div class="card1">
+    <h2>Apa Itu PC?</h2>
+    <p>PC adalah Personal Computer yang di gunakan secara pribadi untuk melakukan pekerjaan, sebagian besar warga Indonesia menjadikan PC sebagai mata pencarian seperti menjadi YouTubers, pekerja kantor,guru bidang Informatika,sama
+seperti laptop komputer memiliki sparepart-sparepart berupa Mobo/motherboard/mainboard,Power Supply,HDD/SSD, Monitor,Cpu,Fan cooler,Grafik Card, RAM, Keyboard,mouse.</p>
+    <button onclick="kembali()">Kembali</button>
+</div>
+</div>
+  
+
+<!-- HALAMAN TABLET -->
+<div id="halamanTablet" class="hidden content">
+<div class="card1">
+    <h2>Kenali Apa itu tablet?</h2>
+
+    <p>
+        Tablet adalah perangkat elektronik dengan layar sentuh yang lebih besar dari HP,
+        tetapi lebih ringan dan simpel dibanding laptop,tablet sama seperti hp dia masih mengunakan sentuhan dari brainware untuk menjalankan aplikasi.
+    </p>
+
+    <p>
+        Tablet sering digunakan untuk belajar, menggambar, membaca, dan hiburan,bahkan dapat di jadikan sebagai mata pencarian sebagian warga Indonesia untuk mencari uang.
+    </p>
+
+    <p>Komponen utama tablet:</p>
+
+    <ul style="text-align:left; max-width:500px; margin:auto;">
+        <li><b>Layar Sentuh</b> - untuk navigasi dan input</li>
+        <li><b>Baterai</b> - sumber daya pada tablet</li>
+        <li><b>Prosesor</b> - mengolah data pada tablet</li>
+        <li><b>RAM</b> - menjalankan aplikasi di tablet</li>
+        <li><b>Penyimpanan</b> - menyimpan data di tablet hasil aktivitas yang brainware kerjakan</li>
+        <li><b>Kamera</b> - untuk memoto dan merekam video</li>
+    </ul>
+    <button onclick="kembali()">Kembali</button>
+</div>
+</div>
+
+<!-- HALAMAN GAMECONSOLE -->
+<div id="halamanGameconsole" class="hidden content">
+<div class="card1">
+    <h2>Kenali Apa Itu Gameconsole?</h2>
+
+    <p>Game console adalah alat khusus untuk bermain game yang dirancang agar mudah digunakan dan memberikan pengalaman bermain yang optimal dibandingkan perangkat umum seperti 
+Playstation,X-box,Nintendo dan psp,bahkan emulator.</p>
+            <button onclick="kembali()">Kembali</button>
+</div>
+</div>
+
+<!-- HALAMAN TELEVISI -->
+<div id="halamanTelevisi" class="hidden content">
+<div class="card1">
+     <h2>Kenali Apa Itu Televisi?</h2>
+<p>Televisi adalah perangkat elektronik yang digunakan untuk menerima, mengolah, dan menampilkan siaran berupa gambar bergerak dan suara dari sumber sinyal tertentu, seperti antena, satelit, kabel, atau internet.</p>
+             <button onclick="kembali()">Kembali</button>
+</div>
+</div>
+
+<!-- HALAMAN RATE US -->
+<div id="halamanRateus" class="hidden content">
+<div class="card1">
+<p>Please To Rate Us If your Like it,in here you can complain my web if your get a problem,Give Us to the best Rating For your experience use the web
+okay that's all Us to give you simple education,Im very respected your best experience,
+thank's for everyone 
+see you later!!!</p>
+         <button onclick="kembali()">Kembali</button>
+</div>
+</div>
+
+<script>
+    function bukaHP() {
+        document.getElementById("menu").style.display = "none";
+        document.getElementById("halamanHP").style.display = "block";
+    }
+    function bukaLaptop() {
+        document.getElementById("menu").style.display = "none";
+        document.getElementById("halamanLaptop").style.display = "block";
+     }
+    function bukaPC() {
+        document.getElementById("menu").style.display = "none";
+        document.getElementById("halamanPC").style.display = "block";
+    }
+
+    function bukaTablet() {
+        document.getElementById("menu").style.display = "none";
+        document.getElementById("halamanTablet").style.display = "block";
+    }
+
+    function bukaGameconsole() {
+         document.getElementById("menu").style.display = "none";
+         document.getElementById("halamanGameconsole").style.display = "block";
+     }
+
+     function bukaTelevisi() {
+           document.getElementById("menu").style.display = "none";
+           document.getElementById("halamanTelevisi").style.display = "block";
+     }
+
+    function bukaRateus() {
+            document.getElementById("menu").style.display = "none";
+            document.getElementById("halamanRateus").style.display = "block";
+      
+     }
+
+    function kembali() {
+        document.getElementById("menu").style.display = "flex";
+        document.getElementById("halamanHP").style.display = "none";
+        document.getElementById("halamanLaptop").style.display = "none";
+        document.getElementById("halamanPC").style.display = "none";
+        document.getElementById("halamanTablet").style.display = "none";
+        document.getElementById("halamanGameconsole").style.display = "none";
+        document.getElementById("halamanTelevisi").style.display = "none";
+        document.getElementById("halamanRateus").style.display = "none";
+     }
+</script>
+
+</body>
+</html>
